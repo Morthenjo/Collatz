@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+
+.container {
+  border-radius: 0.5rem;
+  background: rgb(43, 41, 61);
+  margin: 5rem auto;
+  max-width: 50rem;
+}
+
+.input {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+}
+
+.button {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+}
+
+h1,
+h3,
+h4,
+p {
+  text-align: center;
+  color: white;
+  margin: 1rem 1rem;
+}
+
+.output {
+  text-align: center;
+}
+
+input {
+  margin: 0rem auto 1rem;
+  background-color: black;
+  color: white;
+}
+
+button {
+  margin: 1rem auto 1rem;
+  padding: 1rem 3rem;
+  background-color: rgb(3, 97, 6);
+  color: white;
+  border-radius: 5rem;
+  border: 0.1rem solid white;
+  font-size: large;
+  font-weight: 800;
+}
+textarea {
+  background-color: rgb(35, 40, 38);
+  color: white;
+  margin: 0rem 2rem 2rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.box {
+  max-width: 30rem;
+  margin: auto;
+}

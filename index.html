@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Numbers</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Collatz</h3>
+        <p class="box">Input a number and see how many steps it takes to reach 1.</p>
+      <div class="input">
+        <div class="min">
+          <h3>Minimum</h3>
+          <input type="number" id="lowerNumber" oninput="readInputLow()" />
+        </div>
+        <div class="max">  
+          <h3>Maximum</h3>
+          <input type="number" id="higherNumber" oninput="readInputHigh()" />
+        </div>
+      </div>
+      <div class="button">
+        <button id="button">Run</button>
+        <button id="clear">Clear</button>
+      </div>
+      <div class ="output">
+        <h4 id="intro">Prime Numbers:</h4>
+        <textarea id="primtall" rows="10" cols="50" readonly></textarea>
+      </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
